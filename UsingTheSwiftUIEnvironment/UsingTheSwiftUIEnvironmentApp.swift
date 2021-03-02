@@ -12,6 +12,7 @@ struct UsingTheSwiftUIEnvironmentApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .captionBackgroundColor(.yellow)
         }
     }
 }
